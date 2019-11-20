@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
   line-height: 1.5;
-  font-family: 'Merriweather', serif;
+  font-family: Merriweather, serif;
 }
 
 *, *::before, *::after {
@@ -15,4 +15,59 @@ body {
 img {
   display: block;
   width: 100%;
+}
+
+.header h1 {
+  font-size: 2rem;
+  color: #fff;
+  text-align: center;
+  background-color: #d05c2e;
+  margin: 0;
+  padding: .5em 0;
+  font-weight: bold;
+}
+
+.header a {
+  width: 40px;
+  display: flex;
+  float: left;
+}
+
+.subheader ul {
+  list-style-type: none;
+  margin: 0;
+  min-width: 100px;
+  padding-left: 0;
+  text-align: center;
+  color: #fff;
+  background-color: #d05c2e;
+  font-size: 1.125rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid #a63f38;
+}
+
+.subheader ul li {
+  font-family: Merriweather, serif;
+  padding: .4rem 0;
+}
+
+a:link, a:visited {
+  font-family: Georgia, sans-serif;
+  background-color: #b2a212;
+  color: white;
+  padding: .2em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 4px;
+  border: 2px solid #b2a212;
+  margin: .05em;
+  font-size: 1.125rem;
+}
+
+a:hover, a:active {
+  background-color: #b20953;
+  border: 2px solid #b20953;
 }
